@@ -1,5 +1,5 @@
 .footer-distributed{
-	background-color: #383838;
+	background-color: #585858;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0);
 	box-sizing: border-box;
 	width: 100%;
@@ -92,7 +92,7 @@
 }
 
 .footer-distributed .footer-center p a{
-	color:  #5383d3;
+	color:  #96A5C2;
 	text-decoration: none;;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .footer-distributed .footer-icons{
-	margin-top: 25px;
+	margin-top: 10px;
 }
 
 .footer-distributed .footer-icons a{

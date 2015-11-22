@@ -235,7 +235,7 @@ header {
   text-decoration: none;
   background: #fff;
   padding: 0.7em 1em;
-  color: #1EAEDB; /* nav bar text color*/
+  color: #34629E; /* nav bar text color*/
   width: 100%;
   float: left;
 }
@@ -257,7 +257,7 @@ header {
 }
 
 .nav-collapse ul ul a {
-  background: #1EAEDB;
+  background: #34629E;
   padding-left: 2em;
 }
 
@@ -296,7 +296,7 @@ header {
 }
 
 .nav-toggle:before {
-  color: #1EAEDB; /* Edit this to change the icon color */
+  color: #34629E; /* Edit this to change the icon color */
   text-transform: none;
   text-align: center;
   position: absolute;
