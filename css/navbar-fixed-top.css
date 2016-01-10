@@ -207,7 +207,7 @@ header {
 .nav-collapse,
 .nav-collapse ul {
   list-style: none;
-  width: 100%;
+  width: 1055px;
   float: left;
 }
 
@@ -220,7 +220,7 @@ header {
 
 .nav-collapse li {
   float: left;
-  width: 100%;
+  width: 1055px;
 }
 
 @media screen and (min-width: 40em) {
