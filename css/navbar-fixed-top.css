@@ -10,16 +10,12 @@
  *
  * ============================================= */
 
-/*
 body, div,
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
 fieldset, form, label, legend, th, td,
 article, aside, figure, footer, header, hgroup, menu, nav, section,
-summary, hgroup 
-*/
-
-header, nav {
+summary, hgroup {
   margin: 0;
   padding: 0;
   border: 0;
@@ -123,25 +119,23 @@ p {
   width: 90%;
   margin: 0 auto;
 }
-
 */
 
 /* ------------------------------------------
   FIXED HEADER
 --------------------------------------------- */
-
 header {
-  background: #fff;
+  background: #fff; /* right chunk of space */
   position: fixed;
   z-index: 3;
   width: 100%;
-  left: 0;
+  left:300px;
   top: 0;
 }
-
 .logo {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   text-decoration: none;
+  font-weight: bold;
   line-height: 55px;
   padding: 0 20px;
   color: #fff;
@@ -183,7 +177,7 @@ header {
     display: none !important;
     opacity: 0 !important;
   }
-	}
+}
 
 
 /* ------------------------------------------
@@ -207,20 +201,20 @@ header {
 .nav-collapse,
 .nav-collapse ul {
   list-style: none;
-  width: 1055px;
+  width: 100%;
   float: left;
 }
 
 @media screen and (min-width: 40em) {
   .nav-collapse {
-    float: right;
+    float: left; /* nav bar left or right*/
     width: auto;
   }
 }
 
 .nav-collapse li {
   float: left;
-  width: 1055px;
+  width: 100%;
 }
 
 @media screen and (min-width: 40em) {
@@ -257,7 +251,7 @@ header {
 }
 
 .nav-collapse ul ul a {
-  background: #34629E;
+  background: #fff;
   padding-left: 2em;
 }
 
@@ -271,7 +265,7 @@ header {
 /* ------------------------------------------
   NAV TOGGLE STYLES
 --------------------------------------------- */
-/*
+
 @font-face {
   font-family: "responsivenav";
   src:url("../icons/responsivenav.eot");
@@ -282,7 +276,7 @@ header {
   font-weight: normal;
   font-style: normal;
 }
-*/
+
 .nav-toggle {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -297,11 +291,11 @@ header {
 
 .nav-toggle:before {
   color: #34629E; /* Edit this to change the icon color */
+  font: normal 28px/55px "responsivenav"; /* Edit font-size (28px) to change the icon size */
   text-transform: none;
   text-align: center;
   position: absolute;
   content: "\2261"; /* Hamburger icon */
-  font-size: 25px;
   text-indent: 0;
   speak: none;
   width: 100%;
@@ -313,8 +307,5 @@ header {
   font-size: 24px;
   content: "\78"; /* Close icon */
 }
-
-
-
 
 
