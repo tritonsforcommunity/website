@@ -24,6 +24,8 @@
     <div class="section regular">
       <div class="container">
         <h1 class="section-heading">Upcoming events</h1><br>
+	<img src="images/cupcake-flyer-012016.jpg" style="width:544px; height:704px;"><br><br><br>
+        <h1><a href="https://docs.google.com/forms/d/1PVZvxYhvUrlZsv6c4qL4QNskBg08n2ktGmmDmjS6f-k/viewform?usp=send_form">Sign up here!</a></h1>
 	</div>
     </div>
 
