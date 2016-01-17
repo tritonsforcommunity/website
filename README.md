@@ -7,7 +7,3 @@ source ~/.bashrc
 before updating repository
 
 
-Contributors  
-Nathaniel Perkins  
-Ilse Tse  
-
