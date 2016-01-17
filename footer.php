@@ -17,7 +17,7 @@
 			</div>
 
 			<div class="footer-center">
-
+			<!--
 				<div>
 					<i class="fa fa-map-marker"></i>
 				</div>
@@ -25,7 +25,7 @@
 				<div>
 					<i class="fa fa-phone"></i>
 				</div>
-
+			-->
 				<div>
 					<i class="fa fa-envelope"></i>
 					<p><a href="mailto:tritonsforcommunity@gmail.com">tritonsforcommunity@gmail.com</a></p>

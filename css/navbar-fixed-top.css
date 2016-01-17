@@ -129,7 +129,7 @@ header {
   position: fixed;
   z-index: 3;
   width: 100%;
-  left:300px;
+  left: 0; /* space before home */
   top: 0;
 }
 .logo {
