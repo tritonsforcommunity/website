@@ -38,16 +38,19 @@ a:hover {
 --------------------------------------------- */
 
 .nav-collapse ul {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  width: 100%;
-  display: block;
+  /*width: 100%;*/
+  display:table;
+  /*display: block;*/
   list-style: none;
 }
 
 .nav-collapse li {
-  width: 100%;
+  /*width: 100%;
   display: block;
+  */
+  display:table;
 }
 
 .js .nav-collapse {
@@ -186,9 +189,10 @@ header {
 
 .fixed {
   position: fixed;
-  width: 100%;
-  left: 0;
-  top: 0;
+  /*width: 100%;
+  left: 0;*/
+  display:table;
+  margin:0 auto;
 }
 
 .nav-collapse,
