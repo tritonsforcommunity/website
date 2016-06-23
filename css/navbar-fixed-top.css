@@ -57,7 +57,8 @@ a:hover {
   clip: rect(0 0 0 0);
   max-height: 0;
   position: absolute;
-  display: block;
+  /*display: block;*/
+  display:table;
   overflow: hidden;
   zoom: 1;
 }
@@ -131,9 +132,10 @@ header {
   background: #fff; /* right chunk of space */
   position: fixed;
   z-index: 3;
-  width: 100%;
-  left: 0; /* space before home */
-  top: 0;
+  /*width: 100%;*/
+  /*left: 0;*/ /* space before home */
+  /*top: 0;*/
+  margin:0 auto;
 }
 .logo {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -205,25 +207,25 @@ header {
 .nav-collapse,
 .nav-collapse ul {
   list-style: none;
-  width: 100%;
+  /*width: 100%;*/
   float: left;
 }
 
 @media screen and (min-width: 40em) {
   .nav-collapse {
     float: left; /* nav bar left or right*/
-    width: auto;
+    /*width: auto;*/
   }
 }
 
 .nav-collapse li {
   float: left;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 @media screen and (min-width: 40em) {
   .nav-collapse li {
-    width: auto;
+    /*width: auto;*/
   }
 }
 
@@ -234,7 +236,7 @@ header {
   background: #fff;
   padding: 0.7em 1em;
   color: #34629E; /* nav bar text color*/
-  width: 100%;
+  /*width: 100%;*/
   float: left;
 }
 
