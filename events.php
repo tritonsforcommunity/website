@@ -1,4 +1,4 @@
-<?php include 'header.php';?>yy
+<?php include 'header.php';?>
 
 </head>
 <body>
