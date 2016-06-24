@@ -202,91 +202,41 @@ header {
   NAVIGATION STYLES
 --------------------------------------------- */
 
-.fixed {
-  /*
-  position: fixed;
-  
-  width: 100%;
-  left: 0;
-  display:table;
-  margin:0 auto;
-  */
-}
+/* --- top nav from w3school -- */
 
-.nav-collapse,
-.nav-collapse * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+/* remove margins and padding from the list, and add background color */
 
-.nav-collapse,
-.nav-collapse ul {
-  /*
-  list-style: none;
-  width: 100%;
-  float: left;
-  */
-  list-style-type:none;
-  margin:0 auto;
-  display:table;
-  padding:0;
-  overflow:hidden;
-  background-color:#fff;  
-}
-
-/*
-@media screen and (min-width: 40em) {
-  .nav-collapse {
-    float: left; nav bar left or right
-    width: auto;
-  }
-}
-*/
-.nav-collapse li {
-  float: left;
-  /*width: 100%;*/
-}
-
-.nav-collapse li a
+ul.topnav 
 {
-  display:inline-block;
-  color:#333;
-  text-align:center;
-  padding:14px 16px;
-  text-decoration:none;
-  font-size:17px;
+    list-style-type:none;
+    margin:0 auto;
+    display:table;
+    padding:0;
+    overflow:hidden;
+    background-color:#fff;
 }
 
-/*
-@media screen and (min-width: 40em) {
-  .nav-collapse li {
-    /*width: auto;*/
-  }
-}
-*/
-
-.nav-collapse a {
-  /*-webkit-tap-highlight-color: rgba(0,0,0,0);
-  border-top: 1px solid white;
-  text-decoration: none;
-  background: #fff;
-  padding: 0.7em 1em;
-  color: #34629E;  nav bar text color
-  width: 100%;
-  float: left;
-  */
-  display:inline-block;
-  color:#34629E;
-  text-align:center;
-  padding:14px 16px;
-  text-decoration:none;
-  font-size:17px;
+/* float list items side by side */
+ul.topnav li
+{
+    float:left;
 }
 
-.nav-collapse a:active,
-.nav-collapse .active a {
-  background: #fff;
+/* style links inside list items */
+ul.topnav li a
+{
+    display:inline-block;
+    color:#34629E;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:17px;
+}
+
+/* change background color of links on hover */
+ul.topnav li a:hover
+{
+    background-color:#fff;
 }
 
 /*
