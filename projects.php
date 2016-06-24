@@ -1,9 +1,7 @@
 <?php include 'header.php';?>
 
 <!-- Fixed nav bar top by adtile -->
-<header>
-<nav class="nav-collapse">
- <ul>
+ <ul class="topnav">
   <li class="menu-item active"><a href="http://tritonsforcommunity.ucsd.edu/" data-scroll>Home</a></li>
   <li class="menu-item"><a href="#about" data-scroll>About our projects</a></li>
   <li class="menu-item"><a href="#name" data-scroll>Projects by name</a></li>
@@ -15,8 +13,6 @@
 -->
   <li class="menu-item"><a href="#contact" data-scroll>Contact</a></li>
  </ul>
-</nav>
-</header>
 
  <script src="adtile-JS/fastclick.js"></script>
  <script src="adtile-JS/scroll.js"></script>
