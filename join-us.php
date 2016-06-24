@@ -3,9 +3,7 @@
 </head>
 <body>
   <!-- Fixed nav bar top by adtile -->
-    <header>
-      <nav class="nav-collapse">
-        <ul>
+        <ul class="topnav">
           <li class="menu-item active"><a href="http://tritonsforcommunity.ucsd.edu/" data-scroll>Home</a></li>
           <li class="menu-item"><a href="#fundraising" data-scroll>Fundraising</a></li>
           <li class="menu-item"><a href="#graphic-design" data-scroll>Graphic Design</a></li>
@@ -14,8 +12,6 @@
           <li class="menu-item"><a href="#sign-up" data-scroll>Sign Up</a></li>
           <li class="menu-item"><a href="#contact" data-scroll>Contact</a></li>
         </ul>
-      </nav>
-    </header>
 
     <script src="adtile-JS/fastclick.js"></script>
     <script src="adtile-JS/scroll.js"></script>
