@@ -37,7 +37,7 @@ a:hover {
   RESPONSIVE NAV STYLES
 --------------------------------------------- */
 
-.nav-collapse ul {
+.ul.topnav ul {
   /*
   margin: 0 auto;
   padding: 0;
@@ -48,7 +48,7 @@ a:hover {
   */
 }
 
-.nav-collapse li {
+.ul.topnav li {
   /*
   width: 100%;
   display: block;
@@ -56,7 +56,7 @@ a:hover {
   */
 }
 
-.js .nav-collapse {
+.js .ul.topnav {
   /*clip: rect(0 0 0 0);
   max-height: 0;
   position: absolute;
@@ -67,7 +67,7 @@ a:hover {
   */
 }
 
-.nav-collapse.opened {
+.ul.topnav.opened {
   max-height: 9999px;
 }
 
@@ -86,10 +86,10 @@ a:hover {
 }
 
 @media screen and (min-width: 40em) {
-  .js .nav-collapse {
+  .js .ul.topnav {
     position: relative;
   }
-  .js .nav-collapse.closed {
+  .js .ul.topnav.closed {
     max-height: none;
   }
   .nav-toggle {
@@ -242,7 +242,7 @@ ul.topnav li a:hover
 /*
 
 @media screen and (min-width: 40em) {
-  .nav-collapse a {
+  .ul.topnav a {
     border-left: 1px solid white;
     padding: 1.02em 2em;
     text-align: center;
@@ -252,13 +252,13 @@ ul.topnav li a:hover
   }
 }
 
-.nav-collapse ul ul a {
+.ul.topnav ul ul a {
   background: #fff;
   padding-left: 2em;
 }
 
 @media screen and (min-width: 40em) {
-  .nav-collapse ul ul a {
+  .ul.topnav ul ul a {
     display: none;
   }
 }
