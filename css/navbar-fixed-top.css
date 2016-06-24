@@ -38,29 +38,33 @@ a:hover {
 --------------------------------------------- */
 
 .nav-collapse ul {
+  /*
   margin: 0 auto;
   padding: 0;
-  /*width: 100%;*/
+  width: 100%;
   display:table;
-  /*display: block;*/
+  display: block;
   list-style: none;
+  */
 }
 
 .nav-collapse li {
-  /*width: 100%;
+  /*
+  width: 100%;
   display: block;
-  */
   display:table;
+  */
 }
 
 .js .nav-collapse {
-  clip: rect(0 0 0 0);
+  /*clip: rect(0 0 0 0);
   max-height: 0;
   position: absolute;
-  /*display: block;*/
+  display: block;
   display:table;
   overflow: hidden;
   zoom: 1;
+  */
 }
 
 .nav-collapse.opened {
@@ -129,22 +133,32 @@ p {
   FIXED HEADER
 --------------------------------------------- */
 header {
-  background: #fff; /* right chunk of space */
+  /*
+  background: #fff; right chunk of space 
   position: fixed;
   z-index: 3;
-  /*width: 100%;*/
-  /*left: 0;*/ /* space before home */
-  /*top: 0;*/
+  width: 100%;
+  left: 0; space before home 
+  top: 0;
   margin:0 auto;
+  */
+  list-style-type:none;
+  margin:0 auto;
+  display:table;
+  padding:0;
+  overflow:hidden;
+  background-color:#fff;
 }
+
 .logo {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  /*-webkit-tap-highlight-color: rgba(0,0,0,0);
   text-decoration: none;
   font-weight: bold;
   line-height: 55px;
   padding: 0 20px;
   color: #fff;
   float: left;
+  */
 }
 
 
@@ -190,11 +204,20 @@ header {
 --------------------------------------------- */
 
 .fixed {
+  /*
   position: fixed;
-  /*width: 100%;
-  left: 0;*/
+  
+  width: 100%;
+  left: 0;
   display:table;
   margin:0 auto;
+  */
+  list-style-type:none;
+  margin:0 auto;
+  display:table;
+  padding:0;
+  overflow:hidden;
+  background-color:#fff;
 }
 
 .nav-collapse,
@@ -206,9 +229,17 @@ header {
 
 .nav-collapse,
 .nav-collapse ul {
+  /*
   list-style: none;
-  /*width: 100%;*/
+  width: 100%;
   float: left;
+  */
+  list-style-type:none;
+  margin:0 auto;
+  display:table;
+  padding:0;
+  overflow:hidden;
+  background-color:#fff;  
 }
 
 @media screen and (min-width: 40em) {
